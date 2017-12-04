@@ -1,0 +1,6 @@
+[1204/015328.911:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: Попытка доступа к процессу, выполняющему процедуру завершения.  (0xc000010a)
+[1204/015328.980:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits32>>(void *,unsigned __int64,struct crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<struct crashpad::process_types::internal::Traits32> *): Запрос ReadProcessMemory или WriteProcessMemory был выполнен только частично. (0x12B)
+[1204/015328.980:ERROR:process_info.cc(566)] ReadProcessData failed
+[1204/015328.990:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1204/015328.990:ERROR:exception_snapshot_win.cc(87)] thread ID 0 not found in process
+[1204/015328.990:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
